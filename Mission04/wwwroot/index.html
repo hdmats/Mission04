@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- bootstrap css -->
+    <!-- #8 style the site using bootstrap-->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- personal stylesheet -->
+    <!-- #9 Include at least one change to the styling using your own CSS file-->
+    <link href="css/Styles.css" rel="stylesheet" />
+    <!-- external stylesheet (so hero img goes all the way out to the border)-->
+    <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css” integrity=“sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w = =” crossorigin=“anonymous” referrerpolicy=“no-referrer” />
+    <!-- Favicons -->
+    <!-- #7 An icon for the website-->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+    <!-- #1 A webpage title-->
+    <title>Henry Matsen</title>
+</head>
+<body>
+    <!-- #2 A Header that lists your preferred name-->
+    <div class="hero-text">
+        <h1>Perferred Name:</h1>
+        <h1>Henry</h1>
+    </div>
+    <!-- #3 A picture of yourself doing something you enjoy -->
+    <img class="hero-image" src="img/headerImg.jpg" alt="img of me doing something fun" />
+    <div class="finePrint">
+        <p >*I like to travel, be outside, and hangout with friends (all pictured above)</p>
+    </div>
+
+    <section>
+        <!-- #4 A paragraph on whay you hope to get out of this IS 413 class -->
+        <div>
+            <h2>What I hope to get out of this class: </h2>
+            <p>I want to advance further into full stack development and have a good handle on C#. I also want to learn react (specifically animations)</p>
+        </div>
+
+        <!-- #5 A list of the Top #3 jobs you are most interested in pursuing when you graduate-->
+        <div>
+            <h2>Top #3 Jobs: </h2>
+            <ol>
+                <li>Full Stack Software Development</li>
+                <li>Technical Analyst/Consulting</li>
+                <li>Web Developer</li>
+            </ol>
+        </div>
+
+        <!-- #6 A "Grade Calculator" for that takes as input a percentage scored for each grade category listed in the syllabus-->
+        <div>
+            <h2 class="title">Grade Calculator: </h2>
+            <p class="title">Takes percentages as whole numbers (e.g. 95.2% = 95.2)</p>
+            <form>
+                <label for="assignment">Assignments: </label>
+                <input id="assignment" />
+                <label for="group">Group Projects: </label>
+                <input id="group" />
+                <label for="quiz">Quizzes: </label>
+                <input id="quiz" />
+                <label for="midterm">MidTerm: </label>
+                <input id="midterm" />
+                <label for="final">Final: </label>
+                <input id="final" />
+                <label for="intex">INTEX: </label>
+                <input id="intex" />
+                <button id="sendBtn" class="button" type="submit" value="submit">Submit</button>
+                <label id="finalGrade">Final Grade: </label>
+            </form>
+        </div>
+    </section>
+
+    <!--bootstrap js-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <!--import jquery-->
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <!--js for the calculator-->
+    <script src="js/Calculator.js"></script>
+</body>
+</html>
