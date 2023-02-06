@@ -89,7 +89,7 @@ form {
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
@@ -115,3 +115,44 @@ form {
 .title {
     text-align:center;
 }
+
+/*Nav Css*/
+nav {
+    background-color: #383D3F;
+    padding: .5rem;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+    .main-menu li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        padding: 1rem;
+        font-size: 2rem;
+        white-space: nowrap;
+        user-select: none;
+    }
+
+
+
+
+
+
+
+
+  
+
+
+    
+
+
