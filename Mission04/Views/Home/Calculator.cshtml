@@ -2,9 +2,12 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    //changes title
     ViewData["Title"] = "Calculator";
 }
+<!--imports model-->
 @model CalculatorModel;
+<!--calculator form-->
 <section>
     <div>
         <h2 class="title">Grade Calculator: </h2>
@@ -25,6 +28,7 @@
             <button id="sendBtn" class="button" type="submit">Submit</button>
             <label id="finalGrade">Final Grade: </label>
             <br />
+            <!--error messages-->
             <div id="error" asp-validation-summary="All"></div>
         </form>
     </div>

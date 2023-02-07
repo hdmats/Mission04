@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Mission04.Models
 {
+    //create models
     public class CalculatorModel
     {
+        //make every input required and validate for integers between 0-100
         [Required]
         [Range(0,100, ErrorMessage = "Assignment must be an integer between 0 and 100")]
         public int Assignment { get; set; }

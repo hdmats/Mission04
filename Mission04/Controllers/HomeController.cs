@@ -9,17 +9,20 @@ namespace Mission04.controllers
 {
     public class HomeController : Controller
     {
+        //homepage
         public IActionResult Index()
         {
             return View();
         }
 
+        //get method path
         [HttpGet]
         public IActionResult Calculator()
         {
             return View();
         }
 
+        //post method path
         [HttpPost]
         public IActionResult Calculator(CalculatorModel cm)
         {
